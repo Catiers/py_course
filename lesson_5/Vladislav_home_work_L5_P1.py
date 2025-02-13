@@ -1,5 +1,22 @@
+"""
+#
+#
+#   Finding a leap year
+#
+#
+"""
+
 # Function for checking is a leap year.
 def is_leap_year(year):
+    """
+    Входные переменные:
+        year - int, обязательно.
+
+    Функция проверяет, является ли введённый пользователем год високосным.
+    
+    Выходные переменные:
+        True or None.
+    """
     if (year%4 == 0 and year%100 != 0) or\
         (year%4 == 0 and year%100 == 0 and year%400 == 0):
         return True
