@@ -1,10 +1,10 @@
-"""
+print("""
 #
 #
 #   Finding a leap year
 #
 #
-"""
+""")
 
 # Function for checking is a leap year.
 def is_leap_year(year):
