@@ -23,7 +23,7 @@ def is_leap_year(year):
 
 # Test varible for comparing.
 test_data = [1500, 1900, 2000, 2016, 1987]
-test_result = [None, None, True, True, True]
+test_result = [None, None, True, True, None]
 
 # Checking for a match.
 for user_year, result in zip(test_data,test_result):
